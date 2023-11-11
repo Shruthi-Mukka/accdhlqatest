@@ -4,27 +4,37 @@
   <listeners>
     <listener class-name="utils.SuiteListener"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Regression(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="qa.tests.Testcase1">
-        <methods>
-          <include name="afterTest"/>
-          <include name="beforeMethod"/>
-          <include name="sampleMethodForEnteringCredentials"/>
-          <include name="afterMethod"/>
-          <include name="beforeTestMethod"/>
-        </methods>
-      </class> <!-- qa.tests.Testcase1 -->
       <class name="qa.tests.Testcase2">
         <methods>
-          <include name="loginToApplication"/>
           <include name="afterTest"/>
           <include name="beforeMethod"/>
+          <include name="TCP_379_testMethod06"/>
           <include name="afterMethod"/>
           <include name="beforeTestMethod"/>
         </methods>
       </class> <!-- qa.tests.Testcase2 -->
+      <class name="qa.tests.Testcase0">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verifySignInButton"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeTestMethod"/>
+        </methods>
+      </class> <!-- qa.tests.Testcase0 -->
+      <class name="qa.tests.Testcase1">
+        <methods>
+          <include name="testMethod03"/>
+          <include name="afterTest"/>
+          <include name="testMethod04"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeTestMethod"/>
+        </methods>
+      </class> <!-- qa.tests.Testcase1 -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [Suite] -->

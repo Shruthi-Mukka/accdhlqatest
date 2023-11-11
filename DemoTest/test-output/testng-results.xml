@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="9" passed="3" failed="0" skipped="2">
+<testng-results retried="1" ignored="0" total="6" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-02T17:23:55 IST" name="Suite" finished-at="2023-11-02T17:24:48 IST" duration-ms="53002">
+  <suite started-at="2023-11-11T14:33:44 IST" name="QATestSuite" finished-at="2023-11-11T14:34:14 IST" duration-ms="30294">
     <groups>
     </groups>
-    <test started-at="2023-11-02T17:23:55 IST" name="Test" finished-at="2023-11-02T17:24:48 IST" duration-ms="53002">
+    <test started-at="2023-11-11T14:33:44 IST" name="RegressionTest" finished-at="2023-11-11T14:34:14 IST" duration-ms="30294">
       <class name="qa.tests.Testcase0">
-        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.Testcase0@72cc7e6f]" started-at="2023-11-02T17:23:55 IST" name="beforeTestMethod" finished-at="2023-11-02T17:23:56 IST" duration-ms="818" status="PASS">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.Testcase0@7ce026d3]" started-at="2023-11-11T14:33:44 IST" name="beforeTestMethod" finished-at="2023-11-11T14:33:44 IST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase0@72cc7e6f]" started-at="2023-11-02T17:23:56 IST" name="beforeMethod" finished-at="2023-11-02T17:24:10 IST" duration-ms="13983" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase0@7ce026d3]" started-at="2023-11-11T14:33:44 IST" name="beforeMethod" finished-at="2023-11-11T14:33:52 IST" duration-ms="8469" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,29 +20,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void qa.tests.Testcase0.loginToApplication()]]>
+                <![CDATA[public void qa.tests.Testcase0.googlePagetest01()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="loginToApplication()[pri:0, instance:qa.tests.Testcase0@72cc7e6f]" started-at="2023-11-02T17:24:10 IST" name="loginToApplication" finished-at="2023-11-02T17:24:17 IST" duration-ms="6406" status="PASS">
+        <test-method signature="googlePagetest01()[pri:0, instance:qa.tests.Testcase0@7ce026d3]" started-at="2023-11-11T14:33:52 IST" name="googlePagetest01" finished-at="2023-11-11T14:33:52 IST" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase0@72cc7e6f]" started-at="2023-11-02T17:24:17 IST" name="afterMethod" finished-at="2023-11-02T17:24:18 IST" duration-ms="1037" status="PASS">
+        </test-method> <!-- googlePagetest01 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase0@7ce026d3]" started-at="2023-11-11T14:33:52 IST" name="afterMethod" finished-at="2023-11-11T14:33:53 IST" duration-ms="415" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=Testcase0.loginToApplication()[pri:0, instance:qa.tests.Testcase0@72cc7e6f] output={null}]]]>
+                <![CDATA[[TestResult name=googlePagetest01 status=SUCCESS method=Testcase0.googlePagetest01()[pri:0, instance:qa.tests.Testcase0@7ce026d3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase0@72cc7e6f]" started-at="2023-11-02T17:24:18 IST" name="beforeMethod" finished-at="2023-11-02T17:24:27 IST" duration-ms="9389" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase0@7ce026d3]" started-at="2023-11-11T14:33:53 IST" name="beforeMethod" finished-at="2023-11-11T14:33:56 IST" duration-ms="3554" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,66 +51,39 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void qa.tests.Testcase0.sampleMethodForEnteringCredentials()]]>
+                <![CDATA[public void qa.tests.Testcase0.googlePagetest02()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="sampleMethodForEnteringCredentials()[pri:0, instance:qa.tests.Testcase0@72cc7e6f]" started-at="2023-11-02T17:24:27 IST" name="sampleMethodForEnteringCredentials" finished-at="2023-11-02T17:24:33 IST" duration-ms="5468" status="PASS">
+        <test-method signature="googlePagetest02()[pri:0, instance:qa.tests.Testcase0@7ce026d3]" started-at="2023-11-11T14:33:56 IST" name="googlePagetest02" finished-at="2023-11-11T14:33:56 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleMethodForEnteringCredentials -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase0@72cc7e6f]" started-at="2023-11-02T17:24:33 IST" name="afterMethod" finished-at="2023-11-02T17:24:33 IST" duration-ms="691" status="PASS">
+        </test-method> <!-- googlePagetest02 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase0@7ce026d3]" started-at="2023-11-11T14:33:56 IST" name="afterMethod" finished-at="2023-11-11T14:33:57 IST" duration-ms="303" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sampleMethodForEnteringCredentials status=SUCCESS method=Testcase0.sampleMethodForEnteringCredentials()[pri:0, instance:qa.tests.Testcase0@72cc7e6f] output={null}]]]>
+                <![CDATA[[TestResult name=googlePagetest02 status=SUCCESS method=Testcase0.googlePagetest02()[pri:0, instance:qa.tests.Testcase0@7ce026d3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase0@72cc7e6f]" started-at="2023-11-02T17:24:33 IST" name="beforeMethod" finished-at="2023-11-02T17:24:41 IST" duration-ms="7574" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void qa.tests.Testcase0.verifySignInButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifySignInButton()[pri:0, instance:qa.tests.Testcase0@72cc7e6f]" started-at="2023-11-02T17:24:41 IST" name="verifySignInButton" finished-at="2023-11-02T17:24:47 IST" duration-ms="6121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignInButton -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase0@72cc7e6f]" started-at="2023-11-02T17:24:47 IST" name="afterMethod" finished-at="2023-11-02T17:24:48 IST" duration-ms="907" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifySignInButton status=SUCCESS method=Testcase0.verifySignInButton()[pri:0, instance:qa.tests.Testcase0@72cc7e6f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.Testcase0@72cc7e6f]" started-at="2023-11-02T17:24:48 IST" name="afterTest" finished-at="2023-11-02T17:24:48 IST" duration-ms="465" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.Testcase0@7ce026d3]" started-at="2023-11-11T14:33:57 IST" name="afterTest" finished-at="2023-11-11T14:33:57 IST" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- qa.tests.Testcase0 -->
       <class name="qa.tests.Testcase1">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@2cb4893b]" started-at="2023-11-02T17:24:48 IST" name="beforeMethod" finished-at="2023-11-02T17:24:48 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.Testcase1@231f98ef]" started-at="2023-11-11T14:33:57 IST" name="beforeTestMethod" finished-at="2023-11-11T14:33:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@231f98ef]" started-at="2023-11-11T14:33:57 IST" name="beforeMethod" finished-at="2023-11-11T14:34:01 IST" duration-ms="3582" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,73 +92,63 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void qa.tests.Testcase1.sampleMethodForEnteringCredentials()]]>
+                <![CDATA[public void qa.tests.Testcase1.testMethod03()]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.extent" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.extent" is null
-at baseTest.BaseTest.beforeMethod(BaseTest.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="sampleMethodForEnteringCredentials()[pri:0, instance:qa.tests.Testcase1@2cb4893b]" started-at="2023-11-02T17:24:48 IST" name="sampleMethodForEnteringCredentials" finished-at="2023-11-02T17:24:48 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="testMethod03()[pri:0, instance:qa.tests.Testcase1@231f98ef]" started-at="2023-11-11T14:34:01 IST" name="testMethod03" finished-at="2023-11-11T14:34:01 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod03 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@231f98ef]" started-at="2023-11-11T14:34:01 IST" name="afterMethod" finished-at="2023-11-11T14:34:01 IST" duration-ms="366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod03 status=SUCCESS method=Testcase1.testMethod03()[pri:0, instance:qa.tests.Testcase1@231f98ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@231f98ef]" started-at="2023-11-11T14:34:01 IST" name="beforeMethod" finished-at="2023-11-11T14:34:05 IST" duration-ms="3816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testcase1.testMethod04()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="testMethod04()[pri:0, instance:qa.tests.Testcase1@231f98ef]" started-at="2023-11-11T14:34:05 IST" name="testMethod04" finished-at="2023-11-11T14:34:05 IST" duration-ms="14" status="SKIP">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.extent" is null]]>
+              <![CDATA[Mismatch expected [xx] but found [xxx]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.extent" is null
-at baseTest.BaseTest.beforeMethod(BaseTest.java:54)
+              <![CDATA[java.lang.AssertionError: Mismatch expected [xx] but found [xxx]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at qa.tests.Testcase1.testMethod04(Testcase1.java:25)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
@@ -210,17 +173,106 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleMethodForEnteringCredentials -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@2cb4893b]" started-at="2023-11-02T17:24:48 IST" name="afterMethod" finished-at="2023-11-02T17:24:48 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- testMethod04 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@231f98ef]" started-at="2023-11-11T14:34:05 IST" name="afterMethod" finished-at="2023-11-11T14:34:05 IST" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod04 status=SKIP method=Testcase1.testMethod04()[pri:0, instance:qa.tests.Testcase1@231f98ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@231f98ef]" started-at="2023-11-11T14:34:05 IST" name="beforeMethod" finished-at="2023-11-11T14:34:09 IST" duration-ms="3552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testcase1.testMethod04()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testMethod04()[pri:0, instance:qa.tests.Testcase1@231f98ef]" started-at="2023-11-11T14:34:09 IST" name="testMethod04" finished-at="2023-11-11T14:34:09 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Mismatch expected [xx] but found [xxx]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Mismatch expected [xx] but found [xxx]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at qa.tests.Testcase1.testMethod04(Testcase1.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod04 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@231f98ef]" started-at="2023-11-11T14:34:09 IST" name="afterMethod" finished-at="2023-11-11T14:34:09 IST" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod04 status=FAILURE method=Testcase1.testMethod04()[pri:0, instance:qa.tests.Testcase1@231f98ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.Testcase1@231f98ef]" started-at="2023-11-11T14:34:09 IST" name="afterTest" finished-at="2023-11-11T14:34:09 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- qa.tests.Testcase1 -->
       <class name="qa.tests.Testcase2">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase2@cc43f62]" started-at="2023-11-02T17:24:48 IST" name="beforeMethod" finished-at="2023-11-02T17:24:48 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.Testcase2@7c137fd5]" started-at="2023-11-11T14:34:09 IST" name="beforeTestMethod" finished-at="2023-11-11T14:34:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase2@7c137fd5]" started-at="2023-11-11T14:34:09 IST" name="beforeMethod" finished-at="2023-11-11T14:34:14 IST" duration-ms="4148" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -229,106 +281,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void qa.tests.Testcase2.loginToApplication()]]>
+                <![CDATA[public void qa.tests.Testcase2.TCP_379_testMethod06()]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.extent" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.extent" is null
-at baseTest.BaseTest.beforeMethod(BaseTest.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="loginToApplication()[pri:0, instance:qa.tests.Testcase2@cc43f62]" started-at="2023-11-02T17:24:48 IST" name="loginToApplication" finished-at="2023-11-02T17:24:48 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.extent" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.extent" is null
-at baseTest.BaseTest.beforeMethod(BaseTest.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="TCP_379_testMethod06()[pri:0, instance:qa.tests.Testcase2@7c137fd5]" started-at="2023-11-11T14:34:14 IST" name="TCP_379_testMethod06" finished-at="2023-11-11T14:34:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase2@cc43f62]" started-at="2023-11-02T17:24:48 IST" name="afterMethod" finished-at="2023-11-02T17:24:48 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- TCP_379_testMethod06 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase2@7c137fd5]" started-at="2023-11-11T14:34:14 IST" name="afterMethod" finished-at="2023-11-11T14:34:14 IST" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TCP_379_testMethod06 status=SUCCESS method=Testcase2.TCP_379_testMethod06()[pri:0, instance:qa.tests.Testcase2@7c137fd5] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.Testcase2@7c137fd5]" started-at="2023-11-11T14:34:14 IST" name="afterTest" finished-at="2023-11-11T14:34:14 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- qa.tests.Testcase2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- QATestSuite -->
 </testng-results>

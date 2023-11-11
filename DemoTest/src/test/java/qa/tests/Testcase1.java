@@ -1,5 +1,6 @@
 package qa.tests;
 
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -14,14 +15,14 @@ public class Testcase1 extends BaseTest {
 	//HomePageEvents homepage=new HomePageEvents();
 	//LoginPageEvents loginpage=new LoginPageEvents();
 	@Test
-	public void testMethod01() {
+	public void testMethod03() {
 		String s="xxx";
-		Assert.assertEquals(s,"xx");
+		Assert.assertEquals(s, "xxx", "Matches");
 	}
 	@Test
-	public void testMethod02() {
+	public void testMethod04() {
 		String s="xxx";
-		Assert.assertEquals(s,"xxx");
+		Assert.assertEquals(s,"xx","Mismatch");
 	}
 	
 	

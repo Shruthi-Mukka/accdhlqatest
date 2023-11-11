@@ -10,7 +10,7 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class ExecutionStatusUpdate {
+/*public class ExecutionStatusUpdate {
 
 	static String url="https://jira.dhl.com/";
 	static String projectId="26735";
@@ -19,6 +19,7 @@ public class ExecutionStatusUpdate {
 	//static String issueId="1159622"; (232921-execution id), https://jira.dhl.com/rest/zapi/latest/traceability/executionsByTest?testIdOrKey=TCP-88
 	static String cycleId="-1";
 	public static void main(String[] args) throws JSONException {
+		
 		
 		// fetch issueid from issuekey	
 				
@@ -84,8 +85,8 @@ public class ExecutionStatusUpdate {
 		
 		//Create a test case
 		//1. create issuetype id
-		String baseURL="https://jira.dhl.com";
-		/*RequestSpecification rs=RestAssured.given();
+	/*	String baseURL="https://jira.dhl.com";
+		RequestSpecification rs=RestAssured.given();
 		rs.header("content-type","application/json");
 		rs.header("Authorization","Bearer NjI2NzcwOTQzNDA5OiNRs2sblpxntx0YYukh+VOBOIDv");
 		String issuetypeurl=baseURL+"/rest/zapi/latest/util/zephyrTestIssueType";
@@ -97,7 +98,7 @@ public class ExecutionStatusUpdate {
 		System.out.println(testcaseIssueTypeId);*/
 		
 		//2.create testcase
-		RequestSpecification createReq=RestAssured.given();
+	/*	RequestSpecification createReq=RestAssured.given();
 		createReq.header("content-type","application/json");
 		createReq.header("Authorization","Bearer NjI2NzcwOTQzNDA5OiNRs2sblpxntx0YYukh+VOBOIDv");
 		String testcasecreateurl="https://jira.dhl.com/rest/api/2/issue";
@@ -120,6 +121,6 @@ public class ExecutionStatusUpdate {
 		int sc=createReq.body(jsonRequest.toString()).post(testcasecreateurl).getStatusCode();
 		System.out.println(sc);
 			
-	}
+	} 
 
-}
+}*/

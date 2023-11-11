@@ -9,8 +9,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -33,7 +35,7 @@ public class BaseTest {
 	public ExtentReports extent;
 	public ExtentTest logger;
 
-	@BeforeTest
+	@BeforeClass
 	public void beforeTestMethod() {
 		sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir") + File.separator+"reports"+File.separator+"SDETADDAExtentReport.html");
 		extent=new ExtentReports();
@@ -46,6 +48,7 @@ public class BaseTest {
 
 	}
 
+	
 	@BeforeMethod
 	@Parameters("browser")
 	public void beforeMethod(String browser, Method testMethod) {
@@ -66,7 +69,7 @@ public class BaseTest {
 			logger.log(Status.FAIL, MarkupHelper.createLabel(result.getThrowable() + " - Test case Failed",ExtentColor.RED));
 		}
 		else if(result.getStatus()==ITestResult.SKIP){
-			logger.log(Status.SKIP, MarkupHelper.createLabel(result.getName() + " - Test case skiped",ExtentColor.ORANGE));
+			logger.log(Status.SKIP, MarkupHelper.createLabel(result.getName() + " - Test case skipped",ExtentColor.ORANGE));
 		}
 		else if(result.getStatus()==ITestResult.SUCCESS) {
 			logger.log(Status.PASS, MarkupHelper.createLabel(result.getName() + " - Test case Passed",ExtentColor.GREEN));
@@ -74,7 +77,7 @@ public class BaseTest {
 		driver.quit();
 	}
 
-	@AfterTest
+	@AfterClass
 	public void afterTest() {
 		extent.flush();
 	}

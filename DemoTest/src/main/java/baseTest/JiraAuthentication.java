@@ -4,7 +4,7 @@ import io.restassured.RestAssured;
 import static io.restassured.RestAssured.given;
 import io.restassured.specification.RequestSpecification;
 
-public class JiraAuthentication {
+/*public class JiraAuthentication {
 
 	static String url="https://jira.dhl.com";
 	//static String projectId="26735";
@@ -48,5 +48,5 @@ public class JiraAuthentication {
 	System.out.println(code);
 	 */
 	
-}
-}
+//} 
+//} 
